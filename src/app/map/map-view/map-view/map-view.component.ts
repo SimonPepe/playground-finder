@@ -150,7 +150,7 @@ export class MapViewComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     this.map = new maplibreGl.Map({
       container: this.mapContainer.nativeElement,
-      style: 'TODO: select map style',
+      style: 'https://api.maptiler.com/maps/basic-v2/style.json?key=Bj2MvzyfvXNCdSpyIhPc',
       zoom: Constants.MAP_INITIAL_ZOOM,
       center: Constants.MAP_INITIAL_LON_LAT,
     })
